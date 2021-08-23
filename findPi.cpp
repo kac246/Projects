@@ -13,10 +13,12 @@ using namespace std;
 
 int main()
 {
-    double pi1 = M_PI;
-    int decimal_places =0;
+    double pi_val = MY_PI;
+    int decimal_places = 0;
     cout << "Please enter a number of decimal places with the max decimal place being 50." << endl;
     cin >> decimal_places;
 
-  cout << "The generated PI value is " <<setprecision(decimal_places)<< M_PI << endl;
+    cout << "The generated PI value is " <<setprecision(decimal_places)<< MY_PI << endl;
+    
+   return 0;
 }
